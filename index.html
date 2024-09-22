@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Github Page demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="main-content"></div>
+
+    <p><b>Abstract:</b></p> 
+    
+
+
+
+    <p>Text-to-Speech (TTS) synthesis often face the ``one-to-many`` problem, where a single text input can result in multiple speech outputs with varying prosody due to insufficient prosodic information. Previous TTS models have attempted to extract prosodic information from text and speech but have struggled to generate speech with appropriate prosody for specific contexts. To address this challenge, this study explores the use of visual features to extract prosodic information, drawing inspiration from the successful application of visual features in speech synthesis, although not specifically for prosody. The findings demonstrate that visual features provide prosodic information that is not available from the text input alone, and their integration improves the performance of acoustic feature prediction. Our proposed model, VisualSpeech, incorporates both the visual and textual information, and the results demonstrate that the visual features help improve the naturalness of synthesized speech. This work highlights the potential of visual features in enhancing TTS systems, particularly from the perspective of prosody.</p>
+
+
+    <p><strong><mark>TTS Results</mark></strong></p>
+
+
+    <p>These samples refer to Section 4.4 of our paper, which demostrate the effectiveness of our proposed model, which improves prosody in TTS using visual features. Here are the speech synthesized by all model variants, including the baseline (i.e. Fastspeech2), VisualSpeech (Omnivore), and VisualSpeech (ResNet50) . As you could hear, speech produced by the proposed model VisualSpeech outperforms those by the baseline model Fastspeech2 in terms of prosody. The performace is even close to ground-truth.</p>
+
+
+
+
+    <p><b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Fastspeech2 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp VisualSpeech (Omnivore) &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp   VisualSpeech (ResNet50) &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp      Ground-truth </b></p>
+
+    <p><i>Text: "who's gonna defend your kids."</i></p>
+
+
+<audio controls>
+    <source src="wavs/tt0310793_1_b4vpGhO2LwA_3_synthesize_fs2.wav" type="audio/wav">
+    您的浏览器不支持该音频格式。
+</audio>
+
+<audio controls>
+    <source src="wavs/tt0310793_1_b4vpGhO2LwA_3_synthesize_om.wav" type="audio/wav">
+    您的浏览器不支持该音频格式。
+</audio>
+
+<audio controls>
+    <source src="wavs/tt0310793_1_b4vpGhO2LwA_3_synthesize_res.wav" type="audio/wav">
+    您的浏览器不支持该音频格式。
+</audio>
+
+<audio controls>
+    <source src="wavs/tt0310793_1_b4vpGhO2LwA_3_gt.wav" type="audio/wav">
+    您的浏览器不支持该音频格式。
+</audio>
+
+
+
+    <p><i>Text: "It's okay, Rockle."</i></p>
+
+
+    <audio controls>
+            <source src="wavs/tt0479143_3_Et_Bdct1T0U_35_synthesize_fs2.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt0479143_3_Et_Bdct1T0U_35_synthesize_om.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt0479143_3_Et_Bdct1T0U_35_synthesize_res.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt0479143_3_Et_Bdct1T0U_35_gt.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+
+
+    
+    <p><i>Text: "and keep moving forward."</i></p>
+
+
+    <audio controls>
+            <source src="wavs/tt0479143_3_QrmQqEg4isU_27_synthesize_fs2.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt0479143_3_QrmQqEg4isU_27_synthesize_om.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt0479143_3_QrmQqEg4isU_27_synthesize_res.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt0479143_3_QrmQqEg4isU_27_gt.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+
+
+    <p><i>Text: "You have to show him balance."</i></p>
+
+
+    <audio controls>
+            <source src="wavs/tt1226229_0_4_Anuo4_Tlo_26_synthesize_fs2.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt1226229_0_4_Anuo4_Tlo_26_synthesize_om.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt1226229_0_4_Anuo4_Tlo_26_synthesize_res.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt1226229_0_4_Anuo4_Tlo_26_gt.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+
+
+    
+    <p><i>Text: "That's being the detective, be a Lieutenant."</i></p>
+
+
+    <audio controls>
+            <source src="wavs/tt1408253_0_BzEjGy7EPIc_34_synthesize_fs2.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt1408253_0_BzEjGy7EPIc_34_synthesize_om.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt1408253_0_BzEjGy7EPIc_34_synthesize_res.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt1408253_0_BzEjGy7EPIc_34_gt.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+
+    <p><i>Text: "You are scared to death about their future."</i></p>
+
+
+    <audio controls>
+            <source src="wavs/tt1742650_0_jawZFND4Bfc_46_synthesize_fs2.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt1742650_0_jawZFND4Bfc_46_synthesize_om.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt1742650_0_jawZFND4Bfc_46_synthesize_res.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt1742650_0_jawZFND4Bfc_46_gt.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+
+    <p><i>Text: "I'm going to ask the district attorney to petition."</i></p>
+
+
+    <audio controls>
+            <source src="wavs/tt2005374_7_F6E2ojebPlA_65_synthesize_fs2.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt2005374_7_F6E2ojebPlA_65_synthesize_om.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt2005374_7_F6E2ojebPlA_65_synthesize_res.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt2005374_7_F6E2ojebPlA_65_gt.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+
+    <p><i>Text: "You will not follow protocol."</i></p>
+
+
+    <audio controls>
+            <source src="wavs/tt2510894_0_NNouwnR8QQw_50_synthesize_fs2.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt2510894_0_NNouwnR8QQw_50_synthesize_om.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt2510894_0_NNouwnR8QQw_50_synthesize_res.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt2510894_0_NNouwnR8QQw_50_gt.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+
+    
+    <p><i>Text: "It somewhat looks like you have sewn together."</i></p>
+
+
+    <audio controls>
+            <source src="wavs/tt2702724_0_odvIh7iwK2E_19_synthesize_fs2.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt2702724_0_odvIh7iwK2E_19_synthesize_om.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt2702724_0_odvIh7iwK2E_19_synthesize_res.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt2702724_0_odvIh7iwK2E_19_gt.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+
+    
+    <p><i>Text: "Bet your feet one of the con."</i></p>
+
+
+    <audio controls>
+            <source src="wavs/tt2719848_1_Q54GdrlgRoQ_49_synthesize_fs2.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt2719848_1_Q54GdrlgRoQ_49_synthesize_om.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt2719848_1_Q54GdrlgRoQ_49_synthesize_res.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+    <audio controls>
+            <source src="wavs/tt2719848_1_Q54GdrlgRoQ_49_gt.wav" type="audio/wav">
+                您的浏览器不支持该音频格式。
+    </audio>
+
+</body>
+</html>
